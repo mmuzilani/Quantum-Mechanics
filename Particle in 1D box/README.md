@@ -1,39 +1,16 @@
-Overview
+Particle in a 1D Box — Quantum Mechanics Simulation
 
-This repository contains a small Python script that simulates a particle in a one-dimensional infinite potential well (particle in a box).
-It computes analytical stationary wavefunctions 
-ψn(x)
-ψ
-n
-	​
+Author: Md. Mahiuddin Zilani
+Language: Python
+Topic: Quantum mechanics / Computational physics
 
-(x), probability densities 
-∣ψn(x)∣2
-∣ψ
-n
-	​
+Overview:
+This project simulates a particle in a one-dimensional infinite potential well (particle in a box).
+It calculates wavefunctions (psi_n(x)) and probability densities (|psi_n(x)|^2) for different quantum numbers n.
+The results are plotted in two separate graphs for clear visualization.
 
-(x)∣
-2
-, and displays them in separate subplots for clear visualization.
-
-Theory
-
-For an infinite square well of length 
-L
-L with rigid walls at 
-x=0
-x=0 and 
-x=L
-x=L, the normalized eigenfunctions and energies are:
-
-ψn(x)=2L sin⁡ ⁣(nπxL),n=1,2,3,…
-ψ
-n
-	​
-
-(x)=
-L
-2
-	​
+Theory:
+For an infinite square well of length L with rigid walls at x=0 and x=L:
+psi_n(x) = sqrt(2/L) * sin(n * pi * x / L), where n = 1,2,3...
+E_n = (n^2 * pi^2 * hbar^2) / (2 * m * L^2)​
 
